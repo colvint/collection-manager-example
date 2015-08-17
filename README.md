@@ -6,5 +6,5 @@ Example Meteor application which demos use of the `tauruscolvin:collection-manag
 - [Install Meteor](https://www.meteor.com/install)
 - Pull the repo: `git clone git@github.com:colvint/collection-manager-example.git`
 - `cd collection-manager-example`
-- `meteor`
+- Run the app with `meteor`
 - Navigate to `http://localhost:3000` in your browser
