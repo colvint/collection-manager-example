@@ -1,3 +1,5 @@
+aldeed:collection2@2.5.0
+aldeed:simple-schema@1.3.3
 autopublish@1.0.3
 autoupdate@1.2.1
 base64@1.0.3
@@ -7,11 +9,12 @@ blaze-tools@1.0.3
 boilerplate-generator@1.0.3
 callback-hook@1.0.3
 check@1.0.5
+coffeescript@1.0.6
+cosmos:browserify@0.5.0
 ddp@1.1.0
 deps@1.0.7
 ejson@1.0.6
 fastclick@1.0.3
-firfi:meteor-react-bootstrap@0.0.5
 fortawesome:fontawesome@4.3.0
 geojson-utils@1.0.3
 html-tools@1.0.4
@@ -24,7 +27,6 @@ json@1.0.3
 launch-screen@1.0.2
 livedata@1.0.13
 logging@1.0.7
-maxharris9:classnames@0.0.1
 meteor@1.1.6
 meteor-platform@1.2.2
 minifiers@1.1.5
@@ -36,14 +38,16 @@ ordered-dict@1.0.3
 random@1.0.3
 reactive-dict@1.1.0
 reactive-var@1.0.5
-reactjs:react@0.2.4
 reload@1.1.3
 retry@1.0.3
 routepolicy@1.0.5
 session@1.1.0
 spacebars@1.0.6
 spacebars-compiler@1.0.6
-tauruscolvin:collection-manager@0.0.1
+tauruscolvin:collection-manager@0.0.20
+tauruscolvin:meteor-react-bootstrap@0.0.2
+tauruscolvin:papaparse@4.2.1
+tauruscolvin:simple-schema@1.3.3
 templating@1.1.1
 tracker@1.0.7
 twbs:bootstrap@3.3.5

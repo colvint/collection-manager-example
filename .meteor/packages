@@ -8,3 +8,5 @@ meteor-platform
 autopublish
 insecure
 tauruscolvin:collection-manager
+aldeed:collection2
+tauruscolvin:meteor-react-bootstrap
