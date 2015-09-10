@@ -22,7 +22,8 @@ Organizations.attachSchema(new SimpleSchema({
     type: String,
     label: 'url',
     regEx: SimpleSchema.RegEx.Url,
-    allowEdit: true
+    allowEdit: true,
+    allowFilter: true
   },
 
   schoolGroupId: {
