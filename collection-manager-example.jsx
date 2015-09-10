@@ -1,19 +1,37 @@
 Organizations = new Mongo.Collection('organizations');
+SchoolGroups = new Mongo.Collection('school-groups');
+
+BelongsToSchoolGroup = new Relation(SchoolGroups);
 
 Organizations.attachSchema(new SimpleSchema({
   status: {
     type: String,
-    label: 'status'
+    label: 'status',
+    allowedValues: ['active', 'archived', 'removed'],
+    allowFilter: true
   },
-  
+
   name: {
     type: String,
-    label: 'name'
+    label: 'name',
+    allowFilter: true,
+    allowEdit: true
   },
 
   url: {
     type: String,
-    label: 'url'
+    label: 'url',
+    regEx: SimpleSchema.RegEx.Url,
+    allowEdit: true
+  },
+
+  schoolGroupId: {
+    type: String,
+    label: 'School Group',
+    allowEdit: true,
+    allowFilter: true,
+    displayAs: BelongsToSchoolGroup,
+    optional: true
   }
 }));
 
